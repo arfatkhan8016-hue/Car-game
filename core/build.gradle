@@ -1,0 +1,10 @@
+apply plugin: 'java-library'
+
+dependencies {
+    api "com.badlogicgames.gdx:gdx:1.2.1"
+    api "com.badlogicgames.gdx:gdx-box2d:1.2.1"
+    api "com.badlogicgames.gdx:gdx-freetype:1.2.1"
+}
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
